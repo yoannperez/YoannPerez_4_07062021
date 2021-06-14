@@ -720,6 +720,8 @@ blockquote p {
 h2 {
     font-size: 2em;
     line-height: 1.4em;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 h3 {
