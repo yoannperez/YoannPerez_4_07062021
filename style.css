@@ -714,7 +714,7 @@ blockquote p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto auto 2em auto;
 }
 
 h2 {
