@@ -474,7 +474,7 @@ button {
 .btn-clean {
     border: 1px solid rgba(0, 0, 0, .08);
     border-bottom-color: rgba(0, 0, 0, .1);
-    text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
+    text-shadow: 0 1px 0 rgba(0, 0, 1, .5);
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
 }
 
@@ -654,7 +654,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #414141!important;
 }
 
 .container {
@@ -693,6 +693,9 @@ blockquote p {
     font-weight: 600;
     margin: 0 2em;
 }
+figcaption{
+    color:#414141;
+}
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -708,8 +711,8 @@ blockquote p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .social {
@@ -753,7 +756,9 @@ h4 {
 .white {
     color: #FFFFFF!important;
 }
-
+.credits {
+    color:#090909;
+}
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -789,13 +794,23 @@ h4 {
     background-color: #F3976C;
 }
 
+.bgc-atomic-tangerine-banner {
+    background-color: #F3976B;
+}
+
 .tc-white {
     color: #F3976C!important;
+}
+.tc-white-banner {
+    color: #0A0A08!important;
+}
+p.text-size{
+    font-size: 14px!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #090909!important;
 }
 
 .btn-atomic-tangerine:hover {
