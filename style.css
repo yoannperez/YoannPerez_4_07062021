@@ -683,6 +683,10 @@ p {
     font-size: 12px;
 }
 
+a.equipeLink{
+    font-size: 18px;
+}
+
 blockquote {
     border-left: 1px solid transparent;
 
