@@ -937,6 +937,14 @@ p.text-size{
         margin-left: 10px;
         margin-right: 10px;
     }
+    .footer-padding{
+        padding-left: 10px;
+    }
+
+    .direction{
+        text-align: center;
+    }
+ 
     .page-container {
         overflow-x: hidden;
         position: relative;
