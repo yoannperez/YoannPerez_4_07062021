@@ -3,7 +3,6 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
-    /* -webkit-font-smoothing: antialiased; */
     -moz-osx-font-smoothing: grayscale;
 }
 
@@ -926,6 +925,18 @@ p.text-size{
 }
 
 @media (max-width: 767px) {
+    .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 2em;
+    }
+    h2 {
+        font-size: 2em;
+        line-height: 1.4em;
+        margin-left: 0.3em;
+        margin-right: 0.3em;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
