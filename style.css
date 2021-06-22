@@ -932,10 +932,10 @@ p.text-size{
         margin-bottom: 2em;
     }
     h2 {
-        font-size: 2em;
+        font-size: 1.8em;
         line-height: 1.4em;
-        margin-left: 0.3em;
-        margin-right: 0.3em;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .page-container {
         overflow-x: hidden;
