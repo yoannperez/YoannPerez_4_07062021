@@ -91,6 +91,7 @@ a:focus{
     bottom: 0;
     left: 0;
     right: 0;
+    z-index: 0;
 }
 
 .texture-paper::before {
@@ -804,6 +805,7 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+    position: relative;
 }
 .tc-white-banner {
     color: #0A0A08!important;
